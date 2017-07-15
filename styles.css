@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-image: url('weather.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li, footer {
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  
+}
+
+footer {
+  color: white;
+}
+
+#head {
+  font-weight: 900;
+}
+
+canvas {
+
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.fa-free-code-camp{
+	color: green;
+}
+
+#head {
+  border: 5px solid black; 
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
