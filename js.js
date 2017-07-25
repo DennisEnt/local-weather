@@ -3,10 +3,9 @@ window.onload = () => {
   navigator.geolocation.getCurrentPosition(function (position) {
     // console.log(position);
     fetch(`https://api.wunderground.com/api/36708126e28ee6ce/conditions/q/${position.coords.latitude},${position.coords.longitude}.json'`, {
-      method: 'get'
-    }).then(function (res) {
-      return res.json();
-    }).then(function (data) {
+      method: 'get' })
+      .then(res=>res.json())
+      .then(function (data) {
       const tempC = data.current_observation.temp_c;
       const tempF = data.current_observation.temp_f;
       const weather = data.current_observation.weather;

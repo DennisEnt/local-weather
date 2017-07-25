@@ -32,6 +32,8 @@ footer {
 
 #head {
   font-weight: 900;
+  background-color: rgba(0,0,0,.6);
+  color: white
 }
 
 canvas {
@@ -46,10 +48,6 @@ canvas {
 
 .fa-free-code-camp{
 	color: green;
-}
-
-#head {
-  border: 5px solid black; 
 }
 
 ul {
