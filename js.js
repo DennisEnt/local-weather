@@ -11,7 +11,11 @@ navigator.geolocation.getCurrentPosition(position => {
       const city = data.current_observation.display_location.city;
       const icon = data.current_observation.icon;
       document.getElementById('city').innerHTML = `${city}`;
+      document.getElementById('temperature').innerHTML = `Today's Temperature:`;
       document.getElementById('temp').innerHTML = `${formatTemp}&#8451`;
+      document.getElementById(
+        'forecast'
+      ).innerHTML = `Today's Weather Forecast:`;
       document.getElementById('weather').innerHTML = weather;
       var skycons = new Skycons({
         color: 'black'
