@@ -75,5 +75,5 @@ navigator.geolocation.getCurrentPosition(position => {
           break;
       }
     })
-    .catch(console.log('cannot fetch data'));
+    .catch((error)=> console.log(error));
 });
