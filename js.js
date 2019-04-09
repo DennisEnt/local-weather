@@ -74,5 +74,6 @@ navigator.geolocation.getCurrentPosition(position => {
           skycons.play();
           break;
       }
-    });
+    })
+    .catch(console.log('cannot fetch data'));
 });
