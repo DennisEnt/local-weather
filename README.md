@@ -1,5 +1,5 @@
 # local-weather
-A local weather app built with JavaScript and wunderground API
+A local weather app built with JavaScript and the Open Weather Map API
 
 
 
