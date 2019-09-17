@@ -10,6 +10,7 @@ navigator.geolocation.getCurrentPosition(position => {
   )
     .then(res => res.json())
     .then(data => {
+    console.log(data);
       const tempC = data.main.temp;
       const formatTemp = tempC.toFixed(0);
       const weather = data.weather[0].description;
